@@ -6,6 +6,9 @@ body {
     text-align: center;
     margin: 0;
 }
+iframe {
+    width: 100%;
+}
 nav {
     background-color: #0c0;
     position: fixed;
