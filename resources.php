@@ -30,7 +30,7 @@ class resources
 
         echo "</ul></nav>";
 
-        echo "<header><img src='/images/logo.png' class='full' alt='Cadillac Connectors'><h1>FRC TEAM 5086</h1></header>";
+        echo "<header><img src='/images/logo.png' class='full' alt='Cadillac Connectors'><h1>FRC TEAM 5086</h1><p>Leading the robot revolution with gracious professionalism.</p></header>";
     }
 
     static function partB() {
