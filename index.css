@@ -1,7 +1,7 @@
 body {
     background-color: #0f0;
     color: #fff;
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
     margin: 0;
 }
@@ -12,7 +12,7 @@ nav {
     margin: 0;
     padding: 0;
 }
-ul {
+nav > ul {
     list-style: none;
     display: flex;
     align-items: stretch;
@@ -21,15 +21,63 @@ ul {
     margin: 0;
     padding: 0;
 }
-li {
+nav > li {
     display: block;
     flex: 1 1 auto;
     list-style-type: none;
 }
+li > a {
+    color: #fff;
+}
 img {
-    background-color: #333;
-    width: 100%;
+    background-color: #999;
+    width: 10%;
 }
 #content {
     width: 50%;
+    background-color: #999;
+    margin: 0 23%;
+    padding: 0 2%;
+}
+figure {
+    background-color: #888;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.full {
+    width: 100%;
+}
+p {
+    text-align: left;
+    text-indent: 2em;
+}
+#nav_albert {
+    background: transparent;
+    height: 1em;
+    width: 1em;
+}
+header > p {
+    text-align: center;
+    text-indent: 0;
+}
+footer {
+    background-color: #0c0;
+}
+footer > a {
+    width: 10%;
+    background-color: transparent;
+}
+a > img {
+    background-color: transparent;
+}
+footer > p {
+    text-indent: 0;
+    text-align: center;
+}
+a {
+    text-decoration: none;
 }
