@@ -29,7 +29,7 @@ require 'resources.php';
         <iframe width="640" height="400" src="https://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=user_uploads&list=UCAPJa_mUyGjpRXvBHV3ULNA" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
         Our <a href="blog.php">blog</a> or our <a href="https://twitter.com/team5086">twitter</a> are both constantly full of team
         related info and updates. If you would rather have more weekly progress, subscribe to <a href="newsletter.php#subscribe">our newsletter</a>
-        or check out our youtube video series, <a href="https://www.youtube.com/playlist?list=PLsbcL77523IpSUr-gck4ddDP7voGeVSJW">Robot in six weeks</a>.
+        or check out our youtube video series, <a href="https://www.youtube.com/playlist?list=APJa_mUyGjpRXvBHV3ULNA">Robot in six weeks</a>.
     </p>
     <h2>Interested?</h2>
     <p>
