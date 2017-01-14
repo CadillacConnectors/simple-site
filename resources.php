@@ -30,6 +30,6 @@ class resources
 
         echo "</ul></nav>";
 
-        echo "<header><img src='/images/logo.png' alt='Cadillac Connectors'><h1>FRC TEAM 5086</h1></header>";
+        echo "<header><img src='/images/logo.png' class='full' alt='Cadillac Connectors'><h1>FRC TEAM 5086</h1></header>";
     }
 }

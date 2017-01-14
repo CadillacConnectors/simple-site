@@ -55,11 +55,6 @@ p {
     text-align: left;
     text-indent: 2em;
 }
-#nav_albert {
-    background: transparent;
-    height: 1em;
-    width: 1em;
-}
 header > p {
     text-align: center;
     text-indent: 0;
