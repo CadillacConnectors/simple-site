@@ -19,9 +19,7 @@ require 'resources.php';
 
 <section id="content">
     <h2>Cadillac News</h2>
-    <figure>
         <a href="http://cadillacnews.com"><img src="/images/news.png" id="cnews" align="right" title="Cadillac News Logo" alt="Cadillac News"></a>
-    </figure>
     <p>
         The Cadillac News has been a huge help to us by continually releasing articles that help us show our community what we are doing.
         A timeline of various articles that they have written can be found <a href="https://twitter.com/search?q=connectors%20from%3Acadillacnews&src=typd&lang=en">here</a>.
