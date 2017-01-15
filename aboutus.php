@@ -30,7 +30,7 @@ require 'resources.php';
         related info and updates. If you would rather have more weekly progress, subscribe to <a href="newsletter.php#subscribe">our newsletter</a>
         or check out our youtube video series, <a href="https://www.youtube.com/playlist?list=APJa_mUyGjpRXvBHV3ULNA">Robot in six weeks</a>.
     </p>
-    <h2>Interested?</h2>
+    <h2 id="sponsor">Interested?</h2>
     <p>
         <b>Businesses:</b> Head over to <a href="sponsors.php">our sponsors page</a> to find out more about ways
         you can support our team.
