@@ -72,6 +72,8 @@ footer > a {
 }
 a > img {
     background-color: transparent;
+    width: auto;
+    height: 100%;
 }
 footer > p {
     text-indent: 0;
