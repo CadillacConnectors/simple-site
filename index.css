@@ -100,7 +100,10 @@ ul {
         margin: 3%;
     }
     header {
-        margin-top: 10%;
+        margin-top: 50%;
+    }
+    nav > ul {
+        display: block;
     }
 }
 @media (min-width: 501px) and (max-width: 800px) {
@@ -109,7 +112,7 @@ ul {
         margin: 15%;
     }
     header {
-        margin-top: 20%;
+        margin-top: 40%;
     }
     nav > ul {
         display: block;
