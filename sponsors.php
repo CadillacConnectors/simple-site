@@ -10,7 +10,7 @@ require 'resources.php';
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>Steamworks</title>
+    <title>Sponsors</title>
     <?php resources::header(); ?>
 </head>
 <body>
@@ -49,7 +49,6 @@ require 'resources.php';
     <h2 id="benefits">Benefits of sponsorship</h2>
     <p>
         All sponsorships are important to us. However, sponsorships of larger value show more support for our program, so we enjoy showing our support for those who donate.
-        TODO: This needs verification
     </p>
     <table id="benefits_table">
         <tr class="benefits_head">
