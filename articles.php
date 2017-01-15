@@ -55,7 +55,7 @@ class articles
                 $paragraphs->append('They will be available shortly.');
 
                 //Add Images like this
-                $images->append("01.png");
+                //$images->append("01.png");
                 //They will be search for in /blog/articles/images/YYYY/MM/DD/
 
                 break;
