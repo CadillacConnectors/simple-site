@@ -10,7 +10,7 @@ require 'resources.php';
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>Homepage</title>
+    <title>About Us</title>
     <?php resources::header(); ?>
 </head>
 <body>
