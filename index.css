@@ -93,6 +93,7 @@ ul {
 }
 #cnews {
     width: 50%;
+    height: auto;
 }
 header {
     margin-top: 3em;
