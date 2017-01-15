@@ -20,7 +20,7 @@ require 'resources.php';
 <section id="content">
     <h2>Cadillac News</h2>
     <figure>
-        <a href="http://cadillacnews.com"><img src="/images/news.png" align="right" title="Cadillac News Logo" alt="Cadillac News"></a>
+        <a href="http://cadillacnews.com"><img src="/images/news.png" align="right" title="Cadillac News Logo" alt="Cadillac News" id="cnews"></a>
     </figure>
     <p>
         The Cadillac News has been a huge help to us by continually releasing articles that help us show our community what we are doing.
