@@ -75,7 +75,7 @@ require 'resources.php';
             <td>Yes</td>
             <td>Yes</td>
         </tr>
-        <tr class="benefits_1">'
+        <tr class="benefits_1">
             <td>Company name on shirts</td>
             <td>No</td>
             <td>Yes</td>
