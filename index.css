@@ -89,6 +89,6 @@ a {
 ul {
     list-style: none;
 }
-#cnews {
+a > #cnews {
     width: 50%;
 }
