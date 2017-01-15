@@ -19,7 +19,7 @@ require 'resources.php';
 
 <section id="content">
     <h2>This years game</h2>
-    <iframe src="https://www.youtube.com/embed/EMiNmJW7enI" frameborder="0" allowfullscreen></iframe>
+    <iframe height="500" src="https://www.youtube.com/embed/EMiNmJW7enI" frameborder="0" allowfullscreen></iframe>
     <h2>FIRST's Website</h2>
     <p><a href="https://firstinspires.org">All of First</a></p>
     <h2>Michigan FIRST's Website</h2>
