@@ -81,8 +81,11 @@ a {
     text-decoration: none;
 }
 .benefits_1 {
-    color: #ddd;
+    background-color: #ddd;
 }
 .benefits_2 {
-    color: #ccc;
+    background-color: #ccc;
+}
+ul {
+    list-style: none;
 }
