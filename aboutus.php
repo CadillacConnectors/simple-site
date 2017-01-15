@@ -20,7 +20,7 @@ require 'resources.php';
 <section id="content">
     <h2>Who are the Cadillac Connectors?</h2>
     <p>
-        The Connectors, <i>Team 5086</i>, are a part of <a href="https://firstinspires.org">FIRST</a> (For Inspiration and Recognition of Science and Technology)
+        The Connectors, <i>Team 5086</i>, are a part of <a href="http://firstinspires.org">FIRST</a> (For Inspiration and Recognition of Science and Technology)
         Robotics Competition. We seek to promote STEM (Science, Technology, Engineering and Math) in the Cadillac Area by
         building a robot over the course of six weeks and educating teens on real-world skills.
     </p>
@@ -34,10 +34,12 @@ require 'resources.php';
     <p>
         <b>Businesses:</b> Head over to <a href="sponsors.php">our sponsors page</a> to find out more about ways
         you can support our team.
-        <br>
+    </p>
+    <p>
         <b>Community Members:</b> Send us an email at <a href="mailto:frcteam5086@gmail.com">frcteam5086@gmail.com</a> and
         let us know how we can get to know you.
-        <br>
+    </p>
+    <p>
         <b>Parents / Students:</b> Talk to Mr. Whipple at Cadillac High School about joining the team. We are always
         interested in new members, regardless of experience.
     </p>
