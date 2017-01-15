@@ -28,7 +28,7 @@ class resources
         echo "<li><a href='/sponsors.php'>Sponsors</a></li>";
         echo "<li>Coming Soon...</li>";
 
-        echo "</ul></nav>";
+        echo "</ul></nav><br>";
 
         echo "<header><img src='/images/logo.png' class='full' alt='Cadillac Connectors'><h1>FRC TEAM 5086</h1><p>Leading the robot revolution with gracious professionalism.</p></header>";
     }
