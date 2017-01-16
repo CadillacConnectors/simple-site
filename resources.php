@@ -11,8 +11,8 @@ class resources
     static function header() {
         echo "<meta charset=\"UTF-8\">";
         echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"/index.css\">";
-        echo "<link rel=\"icon\" href=\"/favicon.ico\" type=\"image/x-icon\">";
-        echo "<link rel=\"shortcut icon\" href=\"/favicon.ico\" type=\"image/x-icon\">";
+        echo "<link rel=\"icon\" href=\"favicon.ico\" type=\"image/x-icon\">";
+        echo "<link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\">";
     }
 
     static function partA() {
