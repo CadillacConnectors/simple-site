@@ -59,6 +59,16 @@ class articles
                 //They will be search for in /blog/articles/images/YYYY/MM/DD/
 
                 break;
+            case 1:
+                $author = "Kyle Leesch";
+                $date="1/18/2017";
+                $title="The Year to Date";
+                $paragraphs->append("Hello All! We realize that we're a bit late to the blog scene, but unfortunately with the website being under construction, we haven't had much by the way of publication.");
+                $paragraphs->append("If you wish to see our progress before this publication and since launch day, feel free to check out our instagram and twitter.");
+                $paragraphs->append("We've had a lot of great progress so far. This week (however short it has been), we've managed to get a fairly good working prototype for our fuel intake (pictures to come). We also have the makings of our shooter barrel with launching wheel.");
+                $paragraphs->append("We also had the great opportunity of talking Dave Good, a programming expert that helped us on further developing some of the ideas we had for our shooting system from the computer side.");
+                $paragraphs->append("Our gear system is coming along nicely as well! It continues to see added modifications to allow us to recieve gears and transfer them to the airship in a more efficient way.")
+                    
         }
 
         //Do not change this
