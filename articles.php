@@ -61,7 +61,7 @@ class articles
                 break;
             case 1:
                 $author = "Kyle Leesch";
-                $date="1/18/2017";
+                $date="01/18/2017";
                 $title="The Year to Date";
                 $paragraphs->append("Hello All! We realize that we're a bit late to the blog scene, but unfortunately with the website being under construction, we haven't had much by the way of publication.");
                 $paragraphs->append("If you wish to see our progress before this publication and since launch day, feel free to check out our instagram and twitter.");
