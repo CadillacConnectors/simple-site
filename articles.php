@@ -67,7 +67,7 @@ class articles
                 $paragraphs->append("If you wish to see our progress before this publication and since launch day, feel free to check out our instagram and twitter.");
                 $paragraphs->append("We've had a lot of great progress so far. This week (however short it has been), we've managed to get a fairly good working prototype for our fuel intake (pictures to come). We also have the makings of our shooter barrel with launching wheel.");
                 $paragraphs->append("We also had the great opportunity of talking Dave Good, a programming expert that helped us on further developing some of the ideas we had for our shooting system from the computer side.");
-                $paragraphs->append("Our gear system is coming along nicely as well! It continues to see added modifications to allow us to recieve gears and transfer them to the airship in a more efficient way.")
+                $paragraphs->append("Our gear system is coming along nicely as well! It continues to see added modifications to allow us to recieve gears and transfer them to the airship in a more efficient way.");
                 break;
         }
 
