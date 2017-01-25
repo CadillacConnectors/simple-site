@@ -69,6 +69,8 @@ class articles
                 $paragraphs->append("We also had the great opportunity of talking Dave Good, a programming expert that helped us on further developing some of the ideas we had for our shooting system from the computer side.");
                 $paragraphs->append("Our gear system is coming along nicely as well! It continues to see added modifications to allow us to recieve gears and transfer them to the airship in a more efficient way.")
                 break;
+            default:
+                break;
         }
 
         //Do not change this
