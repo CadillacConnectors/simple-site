@@ -21,7 +21,7 @@ require 'resources.php';
     <h2>Cadillac Connectors Newsletter:</h2>
     <h3>2017 -</h3>
     <p>
-        Issue 1 - <a href="newsletters/Issue%2001.pdf">Download here</a>.<br>
+        Issue 1 - <a href="newsletters/Issue%2001.pdf">Download here</a>.</p><p>
         Issue 2 - <a href="newsletters/Issue%2002.pdf">Download here</a>.
     </p>
 </section>
