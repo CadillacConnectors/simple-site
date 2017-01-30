@@ -9,7 +9,7 @@
 class articles
 {
     //Increment this number everytime a new article is created
-    public static $articles = 1;
+    public static $articles = 2;
 
     static function parseId($id) {
         $articles = self::$articles;
@@ -69,6 +69,16 @@ class articles
                 $paragraphs->append("We also had the great opportunity of talking Dave Good, a programming expert that helped us on further developing some of the ideas we had for our shooting system from the computer side.");
                 $paragraphs->append("Our gear system is coming along nicely as well! It continues to see added modifications to allow us to recieve gears and transfer them to the airship in a more efficient way.");
                 break;
+            case 2:
+                $author = "Kyle Leesch";
+                $date="01/30/2017";
+                $title="Blog Post 1";
+                $paragraphs->append("We've progressed quite a ways since the last post! Most of our prototyping has been finished (with exception of the shooter... soon). Everything seems to be working great!");
+                $paragraphs->append("We've also got a CAD version of our Robot's chassis, and have had quite a few parts of it cut out and assembled. It grows more functional by the day.");
+                $paragraphs->append("On a media front, we've started interviews with a large part of the team to document what they've accomplished this season, as well as how they feel the robotics team has impacted them. We're looking forward to learning what members of the team feel that it's done for them!");
+                $paragraphs->append("As always, if you want to see more day-to-day progress, try checking out our instagram! Pictures are posted there whenever we do something cool.");
+                break;
+                
         }
 
         //Do not change this
