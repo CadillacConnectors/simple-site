@@ -9,7 +9,7 @@
 class articles
 {
     //Increment this number everytime a new article is created
-    public static $articles = 2;
+    public static $articles = 3;
 
     static function parseId($id) {
         $articles = self::$articles;
@@ -78,7 +78,14 @@ class articles
                 $paragraphs->append("On a media front, we've started interviews with a large part of the team to document what they've accomplished this season, as well as how they feel the robotics team has impacted them. We're looking forward to learning what members of the team feel that it's done for them!");
                 $paragraphs->append("As always, if you want to see more day-to-day progress, try checking out our instagram! Pictures are posted there whenever we do something cool.");
                 break;
-                
+            case 3:
+                $author = "Kyle Leesch";
+                $date="02/01/2017";
+                $title="Blog Post 2";
+                $paragraphs->append("Progress continues on our Chassis. Luckily for us, the bumper team realized early on that the length of our parts were 2 inches too long! We plan on trimming that down soon.");
+                $paragraphs->append("We've officially broken down into more official sub teams after realizing the need to get people motivated about one specific issue. We were seeing a lot of help across the board, but not much concrete work was being done on some key components. Luckily, we've fixed that issue and we're full steam ahead!");
+                $paragraphs->append("We're planning on getting some more parts machined down. Our CAD design is almost finished and that will give us the full idea of what we need to make for the official robot!");
+                break;
         }
 
         //Do not change this
