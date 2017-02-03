@@ -42,7 +42,7 @@ class resources
         echo "    <a href='https://instagram.com/team5086'><img src=\"/images/instagram.png\" alt=\"Instagram\" title=\"Cadillac Connectors Instagram\" class=\"mediaButton\"></a>";
         echo "    <a href='https://pinterest.com/team5086'><img src=\"/images/pintrest.png\" alt=\"Pinterest\" title=\"Cadillac Connectors Pinterest\" class=\"mediaButton\"></a>";
         echo "    <a href='https://reddit.com/r/cadillacconnectors'><img src=\"/images/reddit.png\" alt=\"Reddit\" title=\"Cadillac Connectors Subreddit\" class=\"mediaButton\"></a>";
-        echo "    <a href='https://www.youtube.com/channel/UCAPJa_mUyGjpRXvBHV3ULNA'><img src=\"images/youtube.png\" alt=\"Youtube\" title=\"Cadillac Connectors Youtube Channel\" class=\"mediaButton\"></a>";
+        echo "    <a href='https://www.youtube.com/channel/UCAPJa_mUyGjpRXvBHV3ULNA'><img src=\"/images/youtube.png\" alt=\"Youtube\" title=\"Cadillac Connectors Youtube Channel\" class=\"mediaButton\"></a>";
         echo "</p>";
         echo "<p>&copy;Joshua Jacobson, 2017.</p>";
         echo "</footer>";
