@@ -1,7 +1,7 @@
 <?php
 require 'resources.php';
-$article = $_GET["article"];
 require 'articles.php';
+$article = articles::parseId($_GET["article"]);
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
