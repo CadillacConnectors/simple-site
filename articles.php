@@ -9,7 +9,7 @@
 class articles
 {
     //Increment this number everytime a new article is created
-    public static $articles = 3;
+    public static $articles = 4;
 
     static function parseId($id) {
         $articles = self::$articles;
@@ -85,6 +85,15 @@ class articles
                 $paragraphs->append("Progress continues on our Chassis. Luckily for us, the bumper team realized early on that the length of our parts were 2 inches too long! We plan on trimming that down soon.");
                 $paragraphs->append("We've officially broken down into more official sub teams after realizing the need to get people motivated about one specific issue. We were seeing a lot of help across the board, but not much concrete work was being done on some key components. Luckily, we've fixed that issue and we're full steam ahead!");
                 $paragraphs->append("We're planning on getting some more parts machined down. Our CAD design is almost finished and that will give us the full idea of what we need to make for the official robot!");
+                break;
+            case 4:
+                $author = 'Kyle Leesch';
+                $date='2/10/2017';
+                $title='Blog Post 3';
+                $paragraphs->append("We've made great strides in our build. We officially have a driveable robot with an extremely good infeed system. We've also officially chosen which kind of shooter that we want as well as have made some of the final parts for it.");
+                $paragraphs->append("Work on the electrical side has begun with cable management as a priority. Since space is fairly limited to preserve hopper space, things have to be wired with the smallest footprint possible. Despite this challenge, our electrical team has been full steam ahead!");
+                $paragraphs->append("In other news, we've also constructed a new team computer! We're still awaiting a moniter for it, which is extremely hard to wait for considering this publication is currently being written on a laptop. Super excited to see it soon! If you are interested, there are a few pictures of us building it on our Instagram!");
+                $paragraphs->append("There is also great news regarding a robotics team for lower grades than high school. We've officially been approved for an First Tech Challenge (FTC) team from the Junior High. We're excited to see how that goes, and hopeful that it will help encourage kids to join our team!");
                 break;
         }
 
