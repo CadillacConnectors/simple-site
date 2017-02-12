@@ -26,6 +26,9 @@ require 'resources.php';
     <p>
         Issue 2 - <a href="newsletters/Issue%2002.pdf">Download here</a>.
     </p>
+    <p>
+        Issue 3 - <a href="newsletters/Issue%2003.pdf">Download here</a>.
+    </p>
 </section>
 
 <?php resources::partB() ?>
