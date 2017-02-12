@@ -92,7 +92,7 @@ class articles
                 $title='Blog Post 3';
                 $paragraphs->append("We've made great strides in our build. We officially have a driveable robot with an extremely good infeed system. We've also officially chosen which kind of shooter that we want as well as have made some of the final parts for it.");
                 $paragraphs->append("Work on the electrical side has begun with cable management as a priority. Since space is fairly limited to preserve hopper space, things have to be wired with the smallest footprint possible. Despite this challenge, our electrical team has been full steam ahead!");
-                $paragraphs->append("In other news, we've also constructed a new team computer! We're still awaiting a moniter for it, which is extremely hard to wait for considering this publication is currently being written on a laptop. Super excited to see it soon! If you are interested, there are a few pictures of us building it on our Instagram!");
+                $paragraphs->append("In other news, we've also constructed a new team computer! We're still awaiting a monitor for it, which is extremely hard to wait for considering this publication is currently being written on a laptop. Super excited to see it soon! If you are interested, there are a few pictures of us building it on our Instagram!");
                 $paragraphs->append("There is also great news regarding a robotics team for lower grades than high school. We've officially been approved for an First Tech Challenge (FTC) team from the Junior High. We're excited to see how that goes, and hopeful that it will help encourage kids to join our team!");
                 break;
         }
