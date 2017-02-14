@@ -105,6 +105,7 @@ class articles
                 $paragraphs->append("This week marks the beginning of tryouts for drive team as well. We plan to have the finalized team in place by the weekend so we have plenty of practice time.");
                 $paragraphs->append("Our vision processing system is growing more complex thanks to the programming team. We've gotten it mostly converted to C++ and it is now running on the on-board vision processing unit of the robot (the TX-1).");
                 $paragraphs->append("That's all for now, but stay tuned to our Instagram this week. Plan on seeing a lot more testing videos and pictures as we ramp up for competition time!");
+                break;
         }
 
         //Do not change this
