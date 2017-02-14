@@ -9,7 +9,7 @@
 class articles
 {
     //Increment this number everytime a new article is created
-    public static $articles = 4;
+    public static $articles = 5;
 
     static function parseId($id) {
         $articles = self::$articles;
@@ -95,6 +95,16 @@ class articles
                 $paragraphs->append("In other news, we've also constructed a new team computer! We're still awaiting a monitor for it, which is extremely hard to wait for considering this publication is currently being written on a laptop. Super excited to see it soon! If you are interested, there are a few pictures of us building it on our Instagram!");
                 $paragraphs->append("There is also great news regarding a robotics team for lower grades than high school. We've officially been approved for an First Tech Challenge (FTC) team from the Junior High. We're excited to see how that goes, and hopeful that it will help encourage kids to join our team!");
                 break;
+                
+            case 5:
+                $author = 'Kyle Leesch';
+                $date='2/14/2017';
+                $title='The Final Week (Blog Post 4)';
+                $paragraphs->append("The time has come for the final week of build season. We've gotten a lot done so far, but there is still much to go. We currently have finished the drive system and infeed, but we still have a hopper, auton, shooter, and hopper to create. Gonna be a busy week!");
+                $paragraphs->append("We've officially submitted our Chairman's award portfolio, much to the thanks of the Business team. They've certainly got their work cut out for them! They've also been doing bi-weekly newsletters.");
+                $paragraphs->append("This week marks the beginning of tryouts for drive team as well. We plan to have the finalized team in place by the weekend so we have plenty of practice time.");
+                $paragraphs->append("Our vision processing system is growing more complex thanks to the programming team. We've gotten it mostly converted to C++ and it is now running on the on-board vision processing unit of the robot (the TX-1).");
+                $paragraphs->append("That's all for now, but stay tuned to our Instagram this week. Plan on seeing a lot more testing videos and pictures as we ramp up for competition time!");
         }
 
         //Do not change this
