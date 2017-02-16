@@ -9,7 +9,7 @@
 class articles
 {
     //Increment this number everytime a new article is created
-    public static $articles = 5;
+    public static $articles = 6;
 
     static function parseId($id) {
         $articles = self::$articles;
@@ -105,6 +105,17 @@ class articles
                 $paragraphs->append("This week marks the beginning of tryouts for drive team as well. We plan to have the finalized team in place by the weekend so we have plenty of practice time.");
                 $paragraphs->append("Our vision processing system is growing more complex thanks to the programming team. We've gotten it mostly converted to C++ and it is now running on the on-board vision processing unit of the robot (the TX-1).");
                 $paragraphs->append("That's all for now, but stay tuned to our Instagram this week. Plan on seeing a lot more testing videos and pictures as we ramp up for competition time!");
+                break;
+            case 6:
+                $author = 'Kyle Leesch';
+                $date='2/16/17';
+                $title="We're Getting There (Blog Post 5)";
+                $paragraphs->append("All fairs well on the robot front. We got it driving for the second time yesterday, hoping to get drive team tryouts started tomorrow! There were a couple of balance issues, but we've pretty much got those worked out now.");
+                $paragraphs->append("We're still waiting on the climber and the hopper (though it is worth saying that we are waiting to get everything in place on the rest of the robot before making the hopper, that way we can maximize space).");
+                $paragraphs->append("Our T-Shirts are coming in today, can't wait to see how those look. Nothing like some team spirit to cheer everyone up!");
+                $paragraphs->append("As we approach our final weekend of build season, we're pulling out all the stops to get this robot done in time. It's certainly looking like we'll achieve that goal this year!");
+                $paragraphs->append("We also have nominated two of our members for the Dean's list. Both Joshua Jacobson and Shannon Metzger were nominated this year. Best of luck to them!");
+                $paragraphs->append("As always, make sure to check out our Instagram! We've got a video of us firing the robot up for testing, so head on over to see us in action!");
                 break;
         }
 
