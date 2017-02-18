@@ -9,7 +9,7 @@
 class articles
 {
     //Increment this number everytime a new article is created
-    public static $articles = 6;
+    public static $articles = 7;
 
     static function parseId($id) {
         $articles = self::$articles;
@@ -108,7 +108,7 @@ class articles
                 break;
             case 6:
                 $author = 'Kyle Leesch';
-                $date='2/16/17';
+                $date='2/16/2017';
                 $title="We're Getting There (Blog Post 5)";
                 $paragraphs->append("All fairs well on the robot front. We got it driving for the second time yesterday, hoping to get drive team tryouts started tomorrow! There were a couple of balance issues, but we've pretty much got those worked out now.");
                 $paragraphs->append("We're still waiting on the climber and the hopper (though it is worth saying that we are waiting to get everything in place on the rest of the robot before making the hopper, that way we can maximize space).");
@@ -116,6 +116,16 @@ class articles
                 $paragraphs->append("As we approach our final weekend of build season, we're pulling out all the stops to get this robot done in time. It's certainly looking like we'll achieve that goal this year!");
                 $paragraphs->append("We also have nominated two of our members for the Dean's list. Both Joshua Jacobson and Shannon Metzger were nominated this year. Best of luck to them!");
                 $paragraphs->append("As always, make sure to check out our Instagram! We've got a video of us firing the robot up for testing, so head on over to see us in action!");
+                break;
+            case 7:
+                $author = 'Kyle Leesch';
+                $date = '2/18/2017';
+                $title = 'So Close, Yet So Far (Blog Post 6)';
+                $paragraphs->append("The days of build season are drawing to a close. With only a 3 full days left of building, we've got our work cut out for us. All of the tele-op drive programming was finished today, only pending some tweaking when we actually have the robot ready to drive. We're still waiting on autonomous, and with our lead programmer sick at home we're not quite sure where that stands at the current time.");
+                $paragraphs->append("The mechanical team is finalizing the build, with only a couple of things left to do. We still have to build is the hopper and reinforce the climbing portion of the robot.");
+                $paragraphs->append("Unfortunately due to the mechanical setbacks, we haven't had the opportunity to get drive team tryouts going. Our drop dead date for that has been moved to during the day on Monday.");
+                $paragraphs->append("The electrical team is almost finished, having only one more motor controller to fit in provided that there isn't anything they have to move for the mechanical team. From this point on, it's pretty much just cable management to finish.");
+                $paragraphs->append("That's all for today's update. Keep checking out our Instagram to find videos of us testing the bot! We'll also be getting some driving around on there soon!");
                 break;
         }
 
