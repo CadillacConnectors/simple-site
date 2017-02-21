@@ -9,7 +9,7 @@
 class articles
 {
     //Increment this number everytime a new article is created
-    public static $articles = 7;
+    public static $articles = 8;
 
     static function parseId($id) {
         $articles = self::$articles;
@@ -126,6 +126,16 @@ class articles
                 $paragraphs->append("Unfortunately due to the mechanical setbacks, we haven't had the opportunity to get drive team tryouts going. Our drop dead date for that has been moved to during the day on Monday.");
                 $paragraphs->append("The electrical team is almost finished, having only one more motor controller to fit in provided that there isn't anything they have to move for the mechanical team. From this point on, it's pretty much just cable management to finish.");
                 $paragraphs->append("That's all for today's update. Keep checking out our Instagram to find videos of us testing the bot! We'll also be getting some driving around on there soon!");
+                break;
+            case 8:
+                $author = 'Kyle Leesch';
+                $date = '2/21/2017';
+                $title = "It's Done! (Blog Post 7)";
+                $paragraphs->append("The final day of build season has arrived! With it comes a pleasant surprise; the robot is pretty much done! Unlike previous years, we have actually managed to get it done in time for a decent amount of practice. Drive team is benig picked today, and we're going to practice for as long as possible.");
+                $paragraphs->append("Electrical has been finished, and we're glad to have great cable management this year! Many zip strips have been spared.");
+                $paragraphs->append("The programming team has finished tele-op controlling, and autonomous programming is nearing completion.");
+                $paragraphs->append("In other news, our t-shirts have arrived. Keep a lookout at competition for these neon shirts, as they're quite stylish and pleasing to the eye.");
+                $paragraphs->append("Interested in seeing a picture of the completed robot? See our Instragram and other various media for a complete look at this year's build season!");
                 break;
         }
 
