@@ -41,5 +41,5 @@ if ($uploadOk == 0) {
         echo "Sorry, there was an error uploading your file. ";
     }
 }
-echo "<html><body><a href="upload.html">Upload Another</a></body></html>";
+//echo "<html><body><a href="upload.html">Upload Another</a></body></html>";
 ?>
