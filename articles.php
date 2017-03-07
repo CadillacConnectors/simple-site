@@ -9,7 +9,7 @@
 class articles
 {
     //Increment this number everytime a new article is created
-    public static $articles = 8;
+    public static $articles = 9;
 
     static function parseId($id) {
         $articles = self::$articles;
@@ -137,6 +137,14 @@ class articles
                 $paragraphs->append("In other news, our t-shirts have arrived. Keep a lookout at competition for these neon shirts, as they're quite stylish and pleasing to the eye.");
                 $paragraphs->append("Interested in seeing a picture of the completed robot? See our Instragram and other various media for a complete look at this year's build season!");
                 break;
+            case 9:
+                $author = 'Joshua Jacobson';
+                $date = '3/5/2017';
+                $title = 'We\'re Going To States!';
+                $paragraphs->append("We did it! At Kettering week one competetion we went 9-3-0 for our qualifying matches and joined an alliance with teams 2619 and 5215. As a part of that alliance, we one every single playoff match, which puts us in a position to be able to go to states in April");
+                $paragraphs->append("I don't want to go into to much detail here because we have a huge amount of material coming out this week - Kyle is writing a blog post, We've got another youtube video, and a newsletter all with info relating to Kettering");
+                $paragraphs->append("I do want to mention that we also recieved a few other awards while we were at competition. We walked out of the gym holding the Engineering Inspiration Award, which \"Celebrates extraordinary enthusiasm and spirit through exceptional partnership and teamwork furthering the objectives of FIRST\", according to the FIRST Website.");
+                $paragraphs->append("We were a runner up in another award category: The UL Safety Award, which is given to a team who is exceptionally safe at home and at competition. We plan on trying to get the team CPR certified before TC so we have an even better chance of winning"); 
         }
 
         //Do not change this
