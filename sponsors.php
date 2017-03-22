@@ -18,6 +18,11 @@ require 'resources.php';
 <?php resources::partA() ?>
 
 <section id="content">
+    <h2>Want to sponsor us?</h2>
+    <p>
+        Contact us at <a href="mailto:frcteam5086@gmail.com" target="_top">frcteam5086@gmail.com</a> to get started.
+        
+    </p>
     <header>
         <h2>Why Do we need sponsors?</h2>
         <h3>A community based program</h3>
