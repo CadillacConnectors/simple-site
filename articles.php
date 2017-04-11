@@ -145,6 +145,16 @@ class articles
                 $paragraphs->append("I don't want to go into to much detail here because we have a huge amount of material coming out this week - Kyle is writing a blog post, We've got another youtube video, and a newsletter all with info relating to Kettering");
                 $paragraphs->append("I do want to mention that we also recieved a few other awards while we were at competition. We walked out of the gym holding the Engineering Inspiration Award, which \"Celebrates extraordinary enthusiasm and spirit through exceptional partnership and teamwork furthering the objectives of FIRST\", according to the FIRST Website.");
                 $paragraphs->append("We were a runner up in another award category: The UL Safety Award, which is given to a team who is exceptionally safe at home and at competition. We plan on trying to get the team CPR certified before TC so we have an even better chance of winning"); 
+                break;
+            case 10:
+                $author = 'Kyle Leesch';
+                $date = '4/11/2017';
+                $title = 'Normal competitions are over!';
+                $paragraphs->append("Although we didn't do as good as in Kettering, we still did a pretty good job showing that we are a not a team to be taken lightly. We made it into the quarter finals again, but didn't go past the first round.");
+                $paragraphs->append("We learned some valuable lessons this competition. First, have a backup computer on hand. During one of the matches, our ethernet connection started having problems, resulting in us being unable to move. We also had some brownout problems that we believe we have found the cause to as well. Luckily we have learned of these issues before states!");
+                $paragraphs->append("With Traverse City done, that leaves states as our only barrier to worlds. Will we make it? We hope so, but for now we are just looking forward to showing what we can do at states!");
+                $paragraphs->append("Stay tuned for how we do at states on our instagram, as well as a blog post here after it is over!");
+                break;
         }
 
         //Do not change this
