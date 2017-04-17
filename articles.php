@@ -9,7 +9,7 @@
 class articles
 {
     //Increment this number everytime a new article is created
-    public static $articles = 9;
+    public static $articles = 11;
 
     static function parseId($id) {
         $articles = self::$articles;
