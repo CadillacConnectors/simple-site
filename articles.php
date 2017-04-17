@@ -155,6 +155,16 @@ class articles
                 $paragraphs->append("With Traverse City done, that leaves states as our only barrier to worlds. Will we make it? We hope so, but for now we are just looking forward to showing what we can do at states!");
                 $paragraphs->append("Stay tuned for how we do at states on our instagram, as well as a blog post here after it is over!");
                 break;
+            case 11:
+                $author = 'Kyle Leesch';
+                $date = '4/17/2017';
+                $title = 'States might be over...';
+                $paragraphs->append("but we are going to worlds! For the first time in team history, we have managed to reach the FIRST Championship level, an accomplishment that has us all more excited than we have been in quite a while!");
+                $paragraphs->append("This comes after an average record in states. We didn't make it to the tournament rounds due to some unforseen electrical problems that hindered our win/loss records. Near the end of competition, we managed to get these fixed up and performed amazing for the final 5 matches of the weekend. Unfortunately, this wasn't enough to convince teams to pick us for their alliance.");
+                $paragraphs->append("After these matches was a very tense time. We fully expected to not qualify for the champtionships, as we were ranked under 80 in the state. It was only until we won the entrepreneurship award that some hope started to come back. This gave us the extra points we needed to be able to qualify!");
+                $paragraphs->append("All that is left now is some fundraising, and then we'll be able to get out there and show our skills at the world competition! Wish us luck!");
+                $paragraphs->append("As always, check our social media for some pictures of this weekend, as well as our newsletter. Make sure you come back in May for the article on worlds!");
+                break;
         }
 
         //Do not change this
