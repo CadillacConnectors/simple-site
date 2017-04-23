@@ -8,6 +8,7 @@
 require 'resources.php';
 ?>
 <!DOCTYPE html>
+<!--2oxYAxJ-->
 <html lang="en-US">
 <head>
     <title>Donations</title>
