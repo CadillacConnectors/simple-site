@@ -12,13 +12,13 @@ require 'resources.php';
 <?php resources::partA() ?>
 
 <section id="content">
-    <h2>Thank you 107.9 CDY!</h2>
+    <!--<h2>Thank you 107.9 CDY!</h2>
     <p>
         If you heard our segment with 107.9 on Thursday, we would like to thank you for coming to check out our site and CDY 
         for giving us the spot. We would just like to remind you that we have a few costly trips coming up and any donation or 
         sponsorship can help. If you can donate any amount please <a href="mailto:frcteam5086@gmail.com">email us</a>; if you are a part of a local business that would like to 
         sponsor us, head over to <a href="/index.php">our sponsors page</a>.
-    </p>
+    </p>-->
     <h2>Our Team</h2>
     <figure>
         <img class="full" src="images/changing/team.jpg" alt="Cadillac Connectors recieve an award" title="Award at TC">
