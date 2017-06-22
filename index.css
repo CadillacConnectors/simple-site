@@ -84,9 +84,11 @@ a {
 }
 .benefits_1 {
     background-color: #ddd;
+    font-size:medium;
 }
 .benefits_2 {
     background-color: #ccc;
+    font-size:medium;
 }
 ul {
     list-style: none;
