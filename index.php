@@ -22,7 +22,7 @@ require 'resources.php';
     <h2>Our Team</h2>
     <figure>
         <img class="full" src="images/changing/team.jpg" alt="Cadillac Connectors recieve an award" title="Award at TC">
-        <figcaption>The Cadillac Connectors receive an award for the our control system at the TC Competition in 2016</figcaption>
+        <figcaption>The Connectors after recieving their award at Kettering in 2017</figcaption>
     </figure>
     <p>
         When you hear the name Cadillac Connectors, there may be some terms that come to mind. For us, those terms are
