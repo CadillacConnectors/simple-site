@@ -38,18 +38,45 @@ require 'resources.php';
     </p>
     <h2>Current Sponsors</h2>
     <ul>
-        <li>State of Michigan</li>
-        <li>Kendall Electric</li>
+        <li>Cadillac Castings</li>
         <li>Rexair</li>
+        <li>Cadillac Area Industrial Group</li>
+        <li>State Grant</li>
+        <li>Cadillac Area Community Funding</li>
+        <li>Avon Automotive</li>
         <li>BorgWarner</li>
+        <li>Baker College</li>
+        <li>Kendall Electric</li>
+        <li>Bob Meyer</li>
+        <li>Dr. Nair</li>
+        <li>Wolverine Power Cooperative</li>
+        <li>DK Design Group</li>
         <li>Stagg Machine Products</li>
-        <li>Cadillac Auto and Truck</li>
-        <li>Rummel Orthodontics</li>
-        <li>BC Pizza of Cadillac</li>
-        <li>Cadillac Computer Center</li>
+        <li>Godfrey Chevorlet</li>
+        <li>Exxon Mobile Grant</li>
+        <li>Cadillac ENT</li>
+        <li>Dean Transportation</li>
+        <li>Biewers Saw Mill</li>
+        <li>Fox Motors (Ford)</li>
+        <li>Wexford CCU</li>
+        <li>BC Pizza</li>
+        <li>Michigan Rubber Products</li>
+        <li>Fiamm Technologies</li>
+        <li>Cadillac Computer</li>
+        <li>Family Eye Care Associates</li>
+        <li>Kathy and Dave McCurdy</li>
+        <li>Home Depot</li>
+        <li>Mary Bechtel</li>
+        <li>William Rzepka</li>
         <li>Lifetouch</li>
+        <li>Bandeen Orthodontics</li>
+        <li>Driver's Choice Auto & Truck</li>
         <li>Networking Butler</li>
-        <li>G&amp;D Pizza</li>
+        <li>Rose Marie Pultorak</li>
+        <li>Dave Foley</li>
+        <li>KFC</li>
+        <li>Jimmy Johns</li>
+        <li>G&D Pizza</li>
     </ul>
     <h2 id="benefits">Benefits of sponsorship</h2>
     <p>
