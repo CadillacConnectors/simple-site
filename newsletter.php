@@ -51,6 +51,14 @@ require 'resources.php';
         Issue 10 - <a href="newsletter/Issue%2010.pdf">6/24/2017</a>.
     </p>
     
+    
+    <h2>Want to be notified when we post? Subscribe to our Newsletter here</h2>
+    <form action="/newsletter.php">
+        Email:<br>
+        <input type="text" name="Email" placeholder="Someone@example.com">
+        <br>
+        <input type="Submit" value="Subscribe">
+    </form> 
 </section>
 
 <?php resources::partB() ?>
