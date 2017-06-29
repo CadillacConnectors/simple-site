@@ -44,6 +44,10 @@ require 'resources.php';
     <p>
         Issue 8 - <a href="newsletters/Issue%2008.pdf">4/17/2017</a>.
     </p>
+    <p>
+        Issue 9 - <a href="newsletter/Issue%2009.pdf">5/2/2017</a>.
+    </p>
+    
 </section>
 
 <?php resources::partB() ?>
