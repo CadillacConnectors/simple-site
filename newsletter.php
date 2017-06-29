@@ -47,6 +47,9 @@ require 'resources.php';
     <p>
         Issue 9 - <a href="newsletter/Issue%2009.pdf">5/2/2017</a>.
     </p>
+    <p>
+        Issue 10 - <a href="newsletter/Issue%2010.pdf">6/24/2017</a>.
+    </p>
     
 </section>
 
