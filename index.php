@@ -12,13 +12,11 @@ require 'resources.php';
 <?php resources::partA() ?>
 
 <section id="content">
-    <!--<h2>Thank you 107.9 CDY!</h2>
+    <h2>Announcing a new STEM program in the Cadillac area</h2>
     <p>
-        If you heard our segment with 107.9 on Thursday, we would like to thank you for coming to check out our site and CDY 
-        for giving us the spot. We would just like to remind you that we have a few costly trips coming up and any donation or 
-        sponsorship can help. If you can donate any amount please <a href="mailto:frcteam5086@gmail.com">email us</a>; if you are a part of a local business that would like to 
-        sponsor us, head over to <a href="/index.php">our sponsors page</a>.
-    </p>-->
+        Are you a parent of a child in 5<sup>th</sup> through 8<sup>th</sup> grade? Are you a student in one of these grades? <a href="/stematthey.php">Come check out a 
+        cool opportunity to learn more about STEM at the YMCA</a>.
+    </p>
     <h2>Our Team</h2>
     <figure>
         <img class="full" src="images/changing/team.jpg" alt="Cadillac Connectors recieve an award" title="Award at TC">
