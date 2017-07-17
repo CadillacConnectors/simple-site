@@ -23,8 +23,8 @@ require 'resources.php';
         The connectors are proud to be a part of a <b>brand new</b> program at the YMCA for students going into grades 5 through 8 for 
         five weeks, starting on <i>July 24<sup>th</sup></i> and going on every <i>Monday</i> and <i>Tuesday</i> until <i>August 
         22<sup>nd</sup></i>. The program features cool demonstrations in various areas from Suprising Science Reactions 
-        to Video Game Programming and will take place from <b>3:30</b> to </b>5:30</b> PM. Want more deatails? Check out 
-        <a href="//ymca.pdf">this flyer</a>.
+        to Video Game Programming and will take place from <b>3:30</b> to <b>5:30</b> PM. Want more deatails? Check out 
+        <a href="/ymca.pdf">this flyer</a>.
     </p>
 </section>
 
