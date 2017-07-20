@@ -1,5 +1,5 @@
 <?php
-$date_default_timezone_set('America/Detroit');
+date_default_timezone_set('America/Detroit');
 $issue = $_GET['i'];
 $ip = $_SERVER['REMOTE_ADDR'];
 $date = date('Y-m-d H:i:s');
