@@ -1,7 +1,8 @@
 <?php
+$date_default_timezone_set('America/Detroit');
 $issue = $_GET['i'];
 $ip = $_SERVER['REMOTE_ADDR'];
-$date = new DateTime();
+$date = date('Y-m-d H:i:s');
 
 $log = fopen("/var/www/data/issue$issue.txt", "a+");
 $value = "$ip\v$date\n";
