@@ -3,7 +3,7 @@ $issue = $_GET['i'];
 $ip = $_SERVER['REMOTE_ADDR'];
 $date = new DateTime();
 
-$log = fopen("issue$issue.txt", "a+");
+$log = fopen("/var/www/data/issue$issue.txt", "a+");
 $value = "$ip\v$date\n";
 fwrite($log, $value);
 fclose($log);
