@@ -5,7 +5,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $date = date('Y-m-d H:i:s');
 
 $log = fopen("/var/www/data/issue$issue.txt", "a+");
-$value = "$ip\v$date\n";
+$value = "$ip  $date\n";
 fwrite($log, $value);
 fclose($log);
 
