@@ -12,5 +12,9 @@ fclose($log);
 if ($issue < 10) {
     header( 'Location: https://connectors5086.org/newsletters/Issue%200' . $issue . '.pdf') ;
 } else {
-    header( 'Location: https://connectors5086.org/newsletters/Issue%20' . $issue . '.pdf') ;
+    if ($issue == "12%") {
+        header( 'Location: https://connectors5086.org/newsletters/Issue%2012.pdf') ;
+    } else {
+        header( 'Location: https://connectors5086.org/newsletters/Issue%20' . $issue . '.pdf') ;
+    }
 }
