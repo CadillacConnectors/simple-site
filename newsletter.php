@@ -1,5 +1,13 @@
 <?php
-echo $_GET['email'];
+$email = $_GET['email'];
+if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+  echo "Sorry, the email address you provided was in an invalid format";
+} else {
+    $file = '/var/www/newsletter.txt';
+    $person = " " . $email;
+    file_put_contents($file, $person, FILE_APPEND | LOCK_EX);
+    echo "Thanks for subscribing to our newsletter!";
+}
 /**
  * Created by PhpStorm.
  * User: josh
