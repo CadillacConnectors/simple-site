@@ -1,4 +1,5 @@
 <?php
+echo $_GET['email'];
 /**
  * Created by PhpStorm.
  * User: josh
@@ -55,7 +56,7 @@ require 'resources.php';
     <h2>Want to be notified when we post? Subscribe to our Newsletter here</h2>
     <form action="/newsletter.php">
         Email:<br>
-        <input type="text" name="Email" placeholder="Someone@example.com">
+        <input type="text" name="email" placeholder="someone@example.com">
         <br>
         <input type="Submit" value="Subscribe">
     </form> 
