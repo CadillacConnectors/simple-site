@@ -5,13 +5,19 @@ $issue = $_GET['issue'];
 $test = $_GET['test'];
 if ($username !== '') {
     echo "attempting to send";
-    if (verify($username, $password)) {
+    $verified = verify($username, $password);
+    if ($verified == "verified") {
         sendLetter($issue, $test);
+    } else if ($verified = "invalid") {
+        echo "invalid username/password. Please wait 2 minutes and try again";
+    } else {
+        echo "please wait for countdown to finish in 2 minutes";
     }
 }
 
 function sendLetter($issue, $test) {
-    echo shell_exec('/var/www/test-mail.sh 13');
+    shell_exec('/var/www/test-mail.sh' . $issue);
+    echo "Sent newsletter!";
 }
 
 function resetCountdown() {
@@ -26,18 +32,16 @@ function verify($username, $password) {
     if (fgets($timeout) != "0\n") {
         fclose($timeout);
         resetCountdown();
-        return false;
+        return "timeout";
     }
     while (($line = fgets($users) !== false)) {
-        echo $line;
-        echo $line == $username . ":" . hash("SHA-512",$password) . "\n";
         if ($line == $username . ":" . hash("SHA-512",$password) . "\n") {
             fclose($users);
-            return true;
+            return "verified";
         }
     }
     resetCountdown();
-    return false;
+    return "invalid";
 }
 ?>
 <!DOCTYPE html>
