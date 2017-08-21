@@ -23,7 +23,7 @@ function resetCountdown() {
 function verify($username, $password) {
     $users = fopen("/var/www/users.conf", "r");
     $timeout = fopen("/var/www/timeout.txt", "r");
-    if (fgets($timeout) >= 0) {
+    if (fgets($timeout) != "0\n") {
         fclose($timeout);
         resetCountdown();
         return false;
