@@ -3,7 +3,7 @@ $username = $_GET['username'];
 $password = $_GET['password'];
 $issue = $_GET['issue'];
 $test = $_GET['test'];
-if ($username !== '') {
+if ($username !== NULL) {
     $verified = verify($username, $password);
     if ($verified == "verified") {
         sendLetter($issue, $test);
