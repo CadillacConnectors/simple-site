@@ -10,7 +10,7 @@ if ($username !== '') {
 }
 
 function sendLetter($issue, $test) {
-    echo shell_exec('sh /var/www/test-mail.sh 13');
+    echo shell_exec('/var/www/test-mail.sh 13');
 }
 
 function resetCountdown() {
