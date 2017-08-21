@@ -4,6 +4,7 @@ $password = $_GET['password'];
 $issue = $_GET['issue'];
 $test = $_GET['test'];
 if ($username !== '') {
+    echo "attempting to send";
     if (verify($username, $password)) {
         sendLetter($issue, $test);
     }
