@@ -16,9 +16,9 @@ if ($username !== NULL) {
 
 function sendLetter($issue, $test) {
     if ($test == "true") {
-        shell_exec('/var/www/test-mail.sh' . $issue);
+        shell_exec('/var/www/update.sh && /var/www/test-mail.sh' . $issue);
     } else {
-        shell_exec('/var/www/mail.sh' . $issue);
+        shell_exec('/var/www/update.sh && /var/www/mail.sh' . $issue);
     }
     echo "Sent newsletter!";
 }
