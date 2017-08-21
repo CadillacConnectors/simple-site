@@ -16,7 +16,11 @@ if ($username !== '') {
 }
 
 function sendLetter($issue, $test) {
-    shell_exec('/var/www/test-mail.sh' . $issue);
+    if ($test == "true") {
+        shell_exec('/var/www/test-mail.sh' . $issue);
+    } else {
+        shell_exec('/var/www/mail.sh' . $issue);
+    }
     echo "Sent newsletter!";
 }
 
