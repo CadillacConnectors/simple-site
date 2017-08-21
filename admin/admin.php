@@ -8,9 +8,9 @@ if ($username !== '') {
     if ($verified == "verified") {
         sendLetter($issue, $test);
     } else if ($verified = "invalid") {
-        echo "invalid username/password. Please wait 2 minutes and try again";
+        echo "invalid username/password. Please wait 30 seconds and try again";
     } else {
-        echo "please wait for countdown to finish in 2 minutes";
+        echo "please wait for countdown to finish in 30 seconds.";
     }
 }
 
@@ -25,7 +25,7 @@ function sendLetter($issue, $test) {
 
 function resetCountdown() {
     $timeout = fopen("/var/www/timeout.txt","w+");
-    fwrite($timeout, "120");
+    fwrite($timeout, "30");
     fclose($timeout);
 }
 
