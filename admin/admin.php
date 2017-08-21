@@ -39,7 +39,7 @@ function verify($username, $password) {
     }
     while (($line = fgets($users) !== false)) {
         if ($line == $username . ":" . hash("SHA-512",$password) . "\n") {
-            echo $line . $username . ":" . hash("SHA-512",$password) . "\n";
+            echo $line . "tru" . $username . ":" . hash("SHA-512",$password) . "\n";
             fclose($users);
             return "verified";
         }
