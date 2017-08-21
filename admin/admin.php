@@ -29,6 +29,8 @@ function verify($username, $password) {
         return false;
     }
     while (($line = fgets($users) !== false)) {
+        echo $line;
+        echo $line == $username . ":" . hash("SHA-512",$password) . "\n";
         if ($line == $username . ":" . hash("SHA-512",$password) . "\n") {
             fclose($users);
             return true;
