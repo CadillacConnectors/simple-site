@@ -39,7 +39,7 @@ function verify($username, $password) {
     }
     foreach(file("/var/www/users.conf") as $line) {
         echo $line . " = " . $combination;
-        if ($line == $combination) {
+        if (strcasecmp($line, $combination)) {
             return "verified";
         }
     }
