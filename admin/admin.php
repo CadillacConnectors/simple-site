@@ -38,8 +38,7 @@ function verify($username, $password) {
         return "timeout";
     }
     foreach(file("/var/www/users.conf") as $line) {
-        echo $line . " = " . $combination . " " . strcasecmp($line, $combination);
-        if (strcasecmp($line, $combination) == 0) {
+        if (strcasecmp($line, $combination) == 1) {
             return "verified";
         }
     }
