@@ -31,6 +31,7 @@ function resetCountdown() {
 
 function verify($username, $password) {
     $combination = $username . ":" . hash("SHA-512",$password) . "\n";
+    echo $combination;
     $timeout = fopen("/var/www/timeout.txt", "r");
     if (fgets($timeout) != "0\n") {
         fclose($timeout);
