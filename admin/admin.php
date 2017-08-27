@@ -38,7 +38,7 @@ function verify($username, $password) {
         resetCountdown();
         return "timeout";
     }
-    while (($line = fgets($users) !== false)) {
+    while (!feof($file)) {
         if ($line == $combination) {
             echo $line . " = " . $combination;
             fclose($users);
