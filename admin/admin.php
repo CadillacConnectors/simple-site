@@ -7,7 +7,7 @@ if ($username !== NULL) {
     $verified = verify($username, $password);
     if ($verified == "verified") {
         sendLetter($issue, $test);
-    } else if ($verified = "invalid") {
+    } else if ($verified == "invalid") {
         echo "invalid username/password. Please wait 30 seconds and try again";
     } else {
         echo "please wait for countdown to finish in 30 seconds.";
@@ -38,7 +38,6 @@ function verify($username, $password) {
         return "timeout";
     }
     foreach(file("/var/www/users.conf") as $line) {
-        echo $line . " = " . $combination;
         if (strcasecmp($line, $combination) == 0) {
             return "verified";
         }
