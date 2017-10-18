@@ -5,6 +5,7 @@ require 'resources.php';
 <html lang="en-US">
 <head>
     <title>Homepage</title>
+    <meta name="google-site-verification" content="x-j7arneQadxtWWRd8steppB8iP_C_sN95QNAOrWJE0" />
     <?php resources::header(); ?>
 </head>
 <body>
