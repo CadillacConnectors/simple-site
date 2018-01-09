@@ -12,11 +12,11 @@ require 'resources.php';
 <?php resources::partA() ?>
 
 <section id="content">
-    <h2>Announcing a new STEM program in the Cadillac area</h2>
+    <!--<h2>Announcing a new STEM program in the Cadillac area</h2>
     <p>
         Are you a parent of a child in 5<sup>th</sup> through 8<sup>th</sup> grade? Are you a student in one of these grades? <a href="/stematthey.php">Come check out a 
         cool opportunity to learn more about STEM at the YMCA</a>.
-    </p>
+    </p>-->
     <h2>Our Team</h2>
     <figure>
         <img class="full" src="images/changing/team.jpg" alt="Cadillac Connectors recieve an award" title="Award at TC">
