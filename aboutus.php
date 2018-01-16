@@ -22,7 +22,7 @@ require 'resources.php';
     <p>
         The Connectors, <i>Team 5086</i>, are a part of <a href="http://firstinspires.org">FIRST</a> (For Inspiration and Recognition of Science and Technology)
         Robotics Competition. We seek to promote STEM (Science, Technology, Engineering and Math) in the Cadillac Area by
-        building a robot over the course of six weeks and educating teens on real-world skills.
+        building a robot over the course of six weeks and educating teens on real-world skills. In addition, we apply our knowledge in other essential topics such as business through our <a href="https://drive.google.com/file/d/0B_cdWJsgVOXkeWhCMHB2dXFGbkNReWJvT0NldVhVRDRJSDJn/view?usp=sharing">business plan.</a> 
     </p>
     <h2>Follow what we do:</h2>
     <p>
